@@ -139,3 +139,7 @@ artifact
 
 #local fine
 test.ipynb
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
