@@ -12,18 +12,20 @@ A machine learning project to detect phishing websites based on URL and website 
 
 ## Project Structure
 
+```
 ├── src/
-│ ├── components/ # Data ingestion, validation, transformation, model training
-│ ├── configuration/ # MongoDB connection setup
-│ ├── pipeline/ # Training and prediction pipelines
-│ ├── utils/ # Utility functions
-├── config/ # Model and schema configuration files
-├── notebook implementation/ # EDA and experimentation notebooks
-├── templates/ # HTML templates for the web app
-├── static/ # CSS/static files
-├── app.py # Flask application entry point
-├── requirements.txt # Python dependencies
-├── setup.py # Package setup
+│   ├── components/          # Data ingestion, validation, transformation, model training
+│   ├── configuration/       # MongoDB connection setup
+│   ├── pipeline/            # Training and prediction pipelines
+│   └── utils/                # Utility functions
+├── config/                   # Model and schema configuration files
+├── notebook implementation/  # EDA and experimentation notebooks
+├── templates/                # HTML templates for the web app
+├── static/                   # CSS/static files
+├── app.py                    # Flask application entry point
+├── requirements.txt          # Python dependencies
+└── setup.py                  # Package setup
+```
 
 ## Installation
 
