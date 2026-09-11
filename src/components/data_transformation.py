@@ -28,7 +28,7 @@ class DataTransformationConfig:
 
 class DataTransformation:
     def __init__(self,
-                 valid_data_dir):
+                 valid_data_dir) :
 
         self.valid_data_dir = valid_data_dir
 
