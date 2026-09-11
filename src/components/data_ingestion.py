@@ -12,12 +12,11 @@ from src.data_access.phising_data import PhisingData
 from src.utils.main_utils import MainUtils
 from dataclasses import dataclass
 
-
-@dataclass
+@dataclass 
 class DataIngestionConfig:
     data_ingestion_dir: str = os.path.join(artifact_folder, "data_ingestion")
 
-
+  
 class DataIngestion:
     def __init__(self):
 
