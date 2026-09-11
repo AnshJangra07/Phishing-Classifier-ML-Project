@@ -54,7 +54,7 @@ class DataIngestion:
         except Exception as e:
             raise CustomException(e, sys)
 
-    def initiate_data_ingestion(self) -> Path:
+    def initiate_data_ingestion(self)->Path:
         """
             Method Name :   initiate_data_ingestion
             Description :   This method initiates the data ingestion components of training pipeline 
